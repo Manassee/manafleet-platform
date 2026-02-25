@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:16
+    container_name: manafleet-db
+    environment:
+      POSTGRES_DB: manafleet
+      POSTGRES_USER: manafleet_user
+      POSTGRES_PASSWORD: manafleet_pass
+    ports:
+      - "5432:5432"
+    volumes:
+      - manafleet_data:/var/lib/postgresql/data
+
+volumes:
+  manafleet_data:
