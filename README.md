@@ -1,4 +1,4 @@
-# 🚛 ManaFleet Platform
+#  ManaFleet Platform
 
 **Intelligente Fleet-Tracking- und Analyseplattform für moderne Unternehmensumgebungen**
 
@@ -8,7 +8,7 @@ Das System wurde als **Java Spring Boot Microservice-Architektur** konzipiert un
 
 ---
 
-## 🎯 Ziel des Projekts
+##  Ziel des Projekts
 
 Ziel von ManaFleet ist der Aufbau einer modularen, hochskalierbaren Plattform zur Verwaltung und Optimierung von Unternehmensflotten.
 
@@ -22,28 +22,28 @@ Die Plattform unterstützt Unternehmen dabei:
 
 ---
 
-## ✨ Kernfunktionen
+##  Kernfunktionen
 
-### 🚗 Fleet Core Management
+###  Fleet Core Management
 
 - Verwaltung von Fahrzeugen, Fahrern und Flotten  
 - Multi-Tenant-Unterstützung  
 - Fahrzeugstatus (Aktiv / Wartung / Außer Betrieb)  
 - Historie von Fahrer-Fahrzeug-Zuweisungen  
 
-### 📍 Echtzeit-Tracking
+###  Echtzeit-Tracking
 
 - Live-GPS-Tracking via WebSocket  
 - Standort-Historie (append-only Time-Series)  
 - Geofencing (Eintritts- / Austritts-Events)  
 
-### 🔧 Wartungs- & Lifecycle-Management
+###  Wartungs- & Lifecycle-Management
 
 - Automatische Wartungsplanung (zeit- oder kilometerbasiert)  
 - Benachrichtigungen bei fälliger Wartung  
 - ERP-Integration zur automatischen Erstellung von Serviceaufträgen  
 
-### 📊 Analytics & Reporting
+###  Analytics & Reporting
 
 - KPI-Dashboards (Distanz, Leerlaufzeit, Auslastung, Routen-Effizienz)  
 - CSV- und PDF-Export  
@@ -51,7 +51,7 @@ Die Plattform unterstützt Unternehmen dabei:
 
 ---
 
-## 🏗 Architektur
+##  Architektur
 
 ManaFleet basiert auf einer serviceorientierten Microservice-Architektur.
 
@@ -98,4 +98,4 @@ Geplante nächste Schritte:
 
 ---
 
-## 📦 Projektstruktur (Beispiel)
+
